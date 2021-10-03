@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <input type="text" class="test1"><br><br>
+    <input type="text" class="test2"><br><br>
+    <input type="text" class="test3"><br><br>
+    <select id="car_type">
+<option value="volvo">111</option>
+<option value="saab">222</option>
+<option value="mercedes">333</option>
+<option value="audi">444</option>
+</select>
+    <script>
+        $("#car_type").change(function() {
+            $(".test2").val("");
+        });
+    </script>
+</body>
+</html>
